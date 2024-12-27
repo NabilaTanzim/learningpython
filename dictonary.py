@@ -8,6 +8,12 @@ student = {
         "Roll"  : "050",
         "Department" : "RME",
         "Faculty" : "Engineering and Technology"
-        }
+        },
+"year" : 1987
 }
-print(student["Nabila"]["Department"])
+
+x = student.get("Nabila")
+print(x)
+
+y = student.keys()
+print(y)
