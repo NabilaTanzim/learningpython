@@ -4,13 +4,15 @@ student = {
         "Department" : "RME",
         "Faculty" : "Engineering and Technology"
         },
-"Tahwa" : {
+    "Tahwa" : {
         "Roll"  : "050",
         "Department" : "RME",
         "Faculty" : "Engineering and Technology"
         },
-"year" : 1987
+    "year" : 1987
 }
+
+print(student["Tahwa"])
 
 x = student.get("Nabila")
 print(x)
