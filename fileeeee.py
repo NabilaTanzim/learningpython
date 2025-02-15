@@ -15,4 +15,10 @@ q.write("look another new file\n")
 
 import os
 # os.remove("anotherfile.txtl")
-os.rmdir("gerbeg")
+# os.rmdir("gerbeg")
+
+# import module
+# module.foood()
+
+import module as snacks
+snacks.khaddodrobbo()
